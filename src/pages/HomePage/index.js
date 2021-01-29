@@ -9,7 +9,7 @@ export default () =>{
         <section className = {styles.brief}>
             <img src={avatar}/>
             <h2>This is Alycia</h2>
-            <p>I'm a new grads from McGill (Fall2020). </p>
+            <p>I'm a new grad from McGill (Fall2020). </p>
             <p>Looking for oppotunities of software Develepment</p>
             <p>Contact me at yuxue.zhu@mail.mcgill.ca</p>
         </section>
