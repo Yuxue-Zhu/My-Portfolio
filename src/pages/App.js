@@ -24,8 +24,8 @@ class App extends Component{
           </div>
         </header>
         <section className={styles.content}>
-          <Route path="/" exact component={HomePage}/>
-          <Route path="/works" exact component={WorkPage}/>
+           <Route path="/" exact component={HomePage}/> 
+          <Route path="/works" exact component={WorkPage}/> 
 
           <Route path="/works/:id" exact component={WorkPageDetail}/>
 
