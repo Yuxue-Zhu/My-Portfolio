@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import styles from './home.module.scss';
-import avatar from "../../assets/images/avatar.JPG";
-import WorkLists from '../../components/WorkLists';
-import worksData from '../works.json'
-
+import avatar from "../../assets/home/avatar.JPG";
+import Resume from '../../components/resume'
+import resumeData from '../resumeData.json'
 export default () =>{
-    return <div className={styles.wrap}>
+    return <div>
+    <div className={styles.wrap}>
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */}
         <section className = {styles.brief}>
             <img src={avatar}/>
             <h2>This is Alycia</h2>
@@ -13,13 +14,10 @@ export default () =>{
             <p>Looking for oppotunities of software Develepment</p>
             <p>Contact me at yuxue.zhu@mail.mcgill.ca</p>
         </section>
-        <section className={styles.work}>
-            <div className={styles.title}>
-                <h2>selection of work</h2>
-                <p>you can find more in the work overview</p>
-            </div>
-            <WorkLists dataSource = {worksData.data}/>
+        
+    </div> 
+    <Resume data={resumeData.resume}/>
 
-        </section>
     </div>
+    
 }

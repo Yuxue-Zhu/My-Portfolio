@@ -6,7 +6,7 @@
         align-items: center;
         flex-wrap: wrap;
          li{
-            width: 45%;            
+            // width: 45%;            
             margin-bottom: 45px;
             a{
               display: inline-flex;
@@ -25,11 +25,12 @@
                   color: rgb(51, 51, 51);
                 }
                 p{
-                  padding: 8px 0px;
+                  
                   color: rgba(0, 0, 0, 0.7);
                   line-height: 1.8;
                 }
                 .tag{
+                  padding: 5px;
                   display: flex;
                   justify-content: flex-start;
                   flex-wrap: wrap;

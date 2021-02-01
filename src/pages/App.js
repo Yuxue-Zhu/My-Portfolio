@@ -5,7 +5,6 @@ import {Link, Route, withRouter} from 'react-router-dom';
 import HomePage from './HomePage'
 import WorkPage from './WorkPage'
 import WorkPageDetail from './WorkPageDetail'
-
 class App extends Component{
   render(){
     const { location } = this.props;
@@ -28,7 +27,7 @@ class App extends Component{
           <Route path="/works" exact component={WorkPage}/> 
 
           <Route path="/works/:id" exact component={WorkPageDetail}/>
-
+         
         </section>
 
         <footer className={styles.footer}>
