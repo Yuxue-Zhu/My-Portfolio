@@ -11,13 +11,13 @@ export default ({dataSource}) =>{
             
             
                 <li key={item.id}>
-                    <Link to={`/works/${item.id}` }>
+                    {/* <Link to={`/works/${item.id}` }> */}
                         <div className={styles.cover}>
                             
                             <img src = {item.cover}/>
                         </div>
                         <div className={styles.workbrief}>
-                            <h3>{item.title}</h3>
+                            <h3 >{item.title}</h3>
                             <div className={styles.tag}>
                                 {item.tags && item.tags.map(i=><span key={i}>{i}</span>)}
                                                              
@@ -25,7 +25,7 @@ export default ({dataSource}) =>{
                             <p>{item.brief}</p>
                             
                         </div>
-                    </Link>
+                    {/* </Link> */}
                 </li>
 
             )

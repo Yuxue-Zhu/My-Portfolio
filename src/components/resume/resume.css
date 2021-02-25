@@ -12,9 +12,12 @@
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
 #resume {
    background: #fff;
-   /* padding-top: 90px; */
+   padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
@@ -32,14 +35,13 @@
    padding-bottom: 6px;
 }
 #resume h3 {
-   
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education {
+.education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -58,6 +60,7 @@
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+
 
 /* ------------------------------------------------------------------ */
 /* c. Default and Basic Styles

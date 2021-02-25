@@ -17,7 +17,7 @@ class App extends Component{
             
             <div className={styles.boxright}> 
               <Link to="/"><p className={location.pathname=="/" ? styles.selected : null}>Home</p></Link>
-              <Link to="/works" className={location.pathname=="/works" ? styles.selected : null}><p>Works</p></Link> 
+              {/* <Link to="/works" className={location.pathname=="/works" ? styles.selected : null}><p>Works</p></Link>  */}
             </div>
 
           </div>

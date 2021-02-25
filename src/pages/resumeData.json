@@ -15,45 +15,28 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
-      {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"http://github.com/tbakerx",
-        "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
-      }
-    ]
+    "resumedownload":"http://timbakerdev.com"
+    
   },
+  "social":[
+      
+    {
+      "name":"google-plus",
+      "url":"http://googleplus.com/tbakerx",
+      "className":"fa fa-google-plus"
+    },
+    {
+      "name":"linkedin",
+      "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+      "className":"fa fa-linkedin"
+    },
+    
+    {
+      "name":"github",
+      "url":"http://github.com/tbakerx",
+      "className":"fa fa-github"
+    }
+  ],
   "resume":{
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
@@ -61,7 +44,7 @@
         "school":"McGill University",
         "degree":"Bachelor of Computer Science and Biology",
         "graduated":"Sep. 2016 - Dec. 2020",
-        "description":["GPA: 3.93",	"MICM Undergrad Award", "Awarded Faculty of Science Scholarship"]
+        "description":["GPA: 3.93/4.0",	"Dean's Honour List", "MICM Undergrad Award", "Awarded Faculty of Science Scholarship"]
       }
       
     ],
@@ -76,7 +59,7 @@
         "company":"Nuance Communications Canada",
         "title":"DevOps Internship ",
         "years":"Sep. 2019 - Apr. 2020",
-        "description":["Implement features to meet requirements","Contribute into the automation and validation of the software"]
+        "description":["Develop and integrate in Linux environment ","Implement features to meet requirements","Contribute into the automation and validation of the software"]
       }
     ],
     "skills":[

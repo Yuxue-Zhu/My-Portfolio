@@ -4,6 +4,12 @@ import avatar from "../../assets/home/avatar.JPG";
 import Resume from '../../components/resume'
 import resumeData from '../resumeData.json'
 export default () =>{
+
+
+   
+    
+    
+    
     return <div>
     <div className={styles.wrap}>
         {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */}
@@ -16,6 +22,9 @@ export default () =>{
         </section>
         
     </div> 
+    {/* <ul className="social">
+    {resumeData.social.map(i=><li key={i.name}><a href={i.url}><i className={i.className}></i></a></li>)}
+   </ul> */}
     <Resume data={resumeData.resume}/>
 
     </div>
